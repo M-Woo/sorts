@@ -7,7 +7,7 @@ function insertionSort(items) {
         i,                          // index into unsorted section
         j;                          // index into sorted section
 
-    for (i=0; i < len; i++) {
+    for (i=1; i < len; i++) {
 
         // store the current value because it may shift later
         value = items[i];
@@ -17,7 +17,7 @@ function insertionSort(items) {
          * in the unsorted section, shift all items in the sorted section over
          * by one. This creates space in which to insert the value.
          */
-        for (j=i-1; j > -1 &#038;&#038; items[j] > value; j--) {
+        for (j=i-1; j >= 0 && items[j] > value; j--) {
             items[j+1] = items[j];
         }
 
@@ -26,3 +26,12 @@ function insertionSort(items) {
 
     return items;
 }
+
+
+// i = number to be sorted
+// j = sorted numbers
+
+// first for loop, i should start at 1. This is to avoid extra code execution
+
+//Insertion sort is a good choice for small or mostly sorted collections.
+// it performs well, has littl memory overhead and is simple to understand and impliment. 
