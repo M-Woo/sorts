@@ -35,3 +35,9 @@ function insertionSort(items) {
 
 //Insertion sort is a good choice for small or mostly sorted collections.
 // it performs well, has littl memory overhead and is simple to understand and impliment. 
+
+
+// Characteristics
+// Like bubble sorts, insertion sorts is efficient for an already sorted or 
+// nearly sorted collection. Insertion sort will always be at 
+// least as efficient as a bubble sort.
