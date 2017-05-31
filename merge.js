@@ -1,3 +1,14 @@
+//Merge sort is arguably the first useful sorting algorithm you learn in computer science.
+
+//complexity of O(n log n)
+//merge sort is a stable sort (just like insertion sort)
+
+ // These advantages are why Firefox and Safari use merge sort 
+ //for their implementation of Array.prototype.sort().
+
+
+
+
 var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
  
 function mergeSort(arr)
